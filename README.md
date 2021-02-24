@@ -4,7 +4,24 @@
 
 Insert keys to relay chain validator node, via RPC calls.
 
-Run with `node insertKey provider validator_derive secret`. The base URI would be `${secret}//${validator_derive}`. Other keys will derive from here, for instance, babe key would be `${secret}//${validator_derive}//babe`.
+Run with:
+
+```
+node insertKey provider validator_derive secret
+```
+
+The base URI would be:
+
+```
+${secret}//${validator_derive}
+```
+
+Other keys will derive from here, for instance, babe key would be:
+
+```
+${secret}//${validator_derive}//babe
+```
+
 
 ## Encode call
 
