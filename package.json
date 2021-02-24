@@ -1,0 +1,13 @@
+{
+  "name": "rococo-util",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^3.10.2",
+    "@polkadot/util": "^5.7.1"
+  }
+}
