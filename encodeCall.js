@@ -15,7 +15,7 @@ async function main() {
     await api.isReady;
 
     const encoded = api.tx[pallet][call](...params).method.toHex();
-    console.log(`Encoded ${pallet}.${call} call: ${encoded}`);
+    console.log(`${pallet}.${call}(${params.join(',')}) encoded:\n${encoded}`);
 
     process.exit();
 }
